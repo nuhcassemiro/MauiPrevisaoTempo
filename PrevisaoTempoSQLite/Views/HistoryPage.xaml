@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PrevisaoTempoSQLite.Views.HistoryPage"
-             Title="HistoryPage">
+             x:Class="PrevisaoTempoSQLite.Views.HistoryPage">
     <ScrollView>
         <StackLayout HorizontalOptions="Center" Padding="20" Spacing="20">
             <Label Text="Histórico de Previsões" HorizontalTextAlignment="Center"/>
@@ -41,7 +40,7 @@
                 </ListView>
             </VerticalStackLayout>
             <FlexLayout HorizontalOptions="Center">
-                <Button Text="Apagar tudo" TextColor="White" BackgroundColor="#FF4929" FontAttributes="Bold" WidthRequest="200" Clicked="Button_Clicked"/>
+                <Button Text="Apagar tudo" TextColor="White" BackgroundColor="#748cab" FontAttributes="Bold" WidthRequest="200" Clicked="Button_Clicked"/>
             </FlexLayout>
         </StackLayout>
     </ScrollView>

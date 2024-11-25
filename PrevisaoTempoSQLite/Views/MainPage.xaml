@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PrevisaoTempoSQLite.Views.MainPage"
-             Title="MainPage">
+             x:Class="PrevisaoTempoSQLite.Views.MainPage">
     <ScrollView>
         <StackLayout HorizontalOptions="Center" Padding="20" Spacing="20">
         <Label Text="Previsão de Tempo" HorizontalTextAlignment="Center"/>
@@ -17,16 +16,16 @@
 
             <StackLayout Orientation="Horizontal" Spacing="20" HorizontalOptions="Center">
                 <Button Text="Obter Localização" WidthRequest="150" FontAttributes="Bold" Clicked="Button_Clicked" 
-                    BackgroundColor="#4CAF50" TextColor="White"/>
+                    BackgroundColor="#0d1321" TextColor="White"/>
                 <Button Text="Obter PlaceMark" WidthRequest="150" FontAttributes="Bold" Clicked="Button_Clicked_1" 
-                    BackgroundColor="#03A9F4" TextColor="White"/>
-                <Button Text="Histórico" WidthRequest="150" Clicked="Button_Clicked_3"
-                        FontAttributes="Bold" TextColor="White"/>
+                    BackgroundColor="#1d2d44" TextColor="White"/>
+                <Button Text="Histórico" WidthRequest="150" FontAttributes="Bold" Clicked="Button_Clicked_3"
+                    BackgroundColor="#748cab" TextColor="White"/>
             </StackLayout>
             
             <StackLayout Spacing="15" Padding="10" Margin="5">
                 <Button Text="Obter Previsão do Tempo" WidthRequest="200" Clicked="Button_Clicked_2" 
-                    BackgroundColor="#FF5722" TextColor="White" HorizontalOptions="Center" FontAttributes="Bold"/>
+                    BackgroundColor="#3e5c76" TextColor="White" HorizontalOptions="Center" FontAttributes="Bold"/>
                 <Label x:Name="lbl_Weather" FontSize="Small" Text="Dados gerais do local"
                    HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
             </StackLayout>
