@@ -13,11 +13,11 @@
                     <ListView.Header>
                         <Grid ColumnDefinitions="*, *, *, *, *, *">
                             <Label Grid.Column="0" Text="Id" />
-                            <Label Grid.Column="1" Text="Longitude" />
-                            <Label Grid.Column="2" Text="Latitude" />
+                            <Label Grid.Column="1" Text="Latitude" />
+                            <Label Grid.Column="2" Text="Longitude" />
                             <Label Grid.Column="3" Text="Cidade" />
                             <Label Grid.Column="4" Text="Estado" />
-                            <Label Grid.Column="5" Text="Temperatura"/>
+                            <Label Grid.Column="5" Text="Tempo"/>
                         </Grid>
                     </ListView.Header>
                     <ListView.ItemTemplate>
@@ -28,11 +28,11 @@
                                 </ViewCell.ContextActions>
                                 <Grid ColumnDefinitions="*, *, *, *, *, *">
                                     <Label Grid.Column="0" Text="{Binding Id}" />
-                                    <Label Grid.Column="1" Text="{Binding Longitude}" />
-                                    <Label Grid.Column="2" Text="{Binding Latitude}" />
-                                    <Label Grid.Column="3" Text="{Binding City}" />
-                                    <Label Grid.Column="4" Text="{Binding County}" />
-                                    <Label Grid.Column="5" Text="{Binding Temperature}" />
+                                    <Label Grid.Column="1" Text="{Binding Latitude}" />
+                                    <Label Grid.Column="2" Text="{Binding Longitude}" />
+                                    <Label Grid.Column="3" Text="{Binding Cidade}" />
+                                    <Label Grid.Column="4" Text="{Binding Estado}" />
+                                    <Label Grid.Column="5" Text="{Binding Tempo}" />
                                 </Grid>
                             </ViewCell>
                         </DataTemplate>
